@@ -1,16 +1,16 @@
-#include "zico.h"
+#include "main.h"
 
 /**
- * main -  prints zico, followed by a new line
+ * main -  prints Holberton, followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar('z');
+	_putchar('M');
+	_putchar('a');
 	_putchar('i');
-	_putchar('c');
-	_putchar('o');
-    _putchar('\n');
+	_putchar('n');
+	_putchar('\n');
 
 	return (0);
 }
