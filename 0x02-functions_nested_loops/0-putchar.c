@@ -10,6 +10,7 @@ int main(void)
 	_putchar('i');
 	_putchar('c');
 	_putchar('o');
+    _putchar('\n');
 
 	return (0);
 }
