@@ -4,14 +4,17 @@
  * main -  prints Holberton, followed by a new line
  * Return: Always 0 (Success)
  */
-int putchar(void)
+int main(void)
 {
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	
+	char test[9] = "_putchar";
+	int i = 0;
+
+	for(i = 0; i < 8; i++)
+	{
+		_putchar(test[i]);
+	}
 	_putchar('\n');
+
+	return (0);
 }
